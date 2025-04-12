@@ -1,4 +1,4 @@
-# Pre-trained Natural Image Models are Few-shot Learners for Medical Image Classification: COVID-19 Diagnosis as an Example
+# TransMedVision: Improving Medical Image Analysis Under Data Scarcity with Transferable Visual Representations
 
 This repository contains the code and datasets that hleps to direct users to reproduce our reported results.
 
@@ -29,7 +29,7 @@ This repository contains the code and datasets that hleps to direct users to rep
 ## Transitional training scheme
 As shown in the figure, Transitional Training Scheme comprises two phases. In phase-1 (depicted within fine-tune a pre-trained natural image model and produce an intermediate model. In phase- 2 (depicted within the yellow frame), this intermediate model is further fine-tuned on the target few-shot dataset U orig and yield the final few-shot COVID-19 diagnosis model.
 <div align="center">
-<img src=./Transitional_training_scheme.png />
+<img src=./transitional_training_strategy.jpg />
 </div>
 
 ## Pre-training Datasets
