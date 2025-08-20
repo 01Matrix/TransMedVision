@@ -224,10 +224,14 @@ The following table provides the results of full fine-tuning of intermediate mod
 
 | Approach       | Accuracy | F1      | AUC    |
 |----------------|----------|---------|--------|
-| Ours           | 0.9026   | 0.8914  | 0.9689 |
-| [Work 1](https://doi.org/10.48550/arXiv.2003.13865)      | 0.8910   | 0.8960  | 0.9810 |
-| Ours           | 0.9113   | 0.9032  | 0.9514 |
-| [Work 2](https://doi.org/10.1101/2020.04.13.20063941)    | 0.8600   | 0.8500  | 0.9400 |
+| **Our Method & Strong Baselines** ||||
+| TransMedVision           | 0.9026   | 0.8914  | 0.9689 |
+| [Yang et al. (2020)](https://doi.org/10.48550/arXiv.2003.13865) | 0.8910   | 0.8960  | 0.9810 |
+| TransMedVision           | 0.9113   | 0.9032  | 0.9514 |
+| [He et al. (2020)](https://doi.org/10.1101/2020.04.13.20063941) | 0.8600   | 0.8500  | 0.9400 |
+| **Other Related Works** ||||
+| [Mobiny et al. (2020)](https://arxiv.org/abs/2004.07407) | 0.8760 | 0.8710 | 0.9610|
+| [Jaiswal et al. (2021)](https://www.tandfonline.com/doi/full/10.1080/07391102.2020.1788642) | 0.8500 | 0.8600 | 0.8400|
 
 
 ### Tighter validation with 46 different data splits
